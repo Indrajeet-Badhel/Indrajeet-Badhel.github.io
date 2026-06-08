@@ -12,9 +12,9 @@ window.siteData = {
     },
     {
       name: "RAG Knowledge Base",
-      type: "AI backend",
+      type: "RAG / ML application",
       status: "case study soon",
-      summary: "FastAPI-based document intelligence backend with PDF upload, chunking, embeddings, ChromaDB retrieval, citations, and conversational memory.",
+      summary: "Document intelligence system with PDF upload, chunking, embeddings, ChromaDB retrieval, citations, and conversational memory.",
       stack: ["FastAPI", "LLMs", "ChromaDB", "Embeddings", "PostgreSQL"],
       image: "assets/projects/rag.svg",
       link: "#"
@@ -39,7 +39,7 @@ window.siteData = {
     },
     {
       name: "SecureScan Upload System",
-      type: "backend security",
+      type: "AI-aware security",
       status: "public",
       summary: "Secure upload workflow with malware scanning, validation, automated alerts, and modular response logic.",
       stack: ["ClamAV", "Python", "PHP", "JavaScript", "C"],
