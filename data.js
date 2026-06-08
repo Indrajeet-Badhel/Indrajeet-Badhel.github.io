@@ -1,0 +1,72 @@
+window.siteData = {
+  contributionCount: 170,
+  projects: [
+    {
+      name: "SentinelAI",
+      type: "AI Ops / monitoring",
+      status: "private cleanup",
+      summary: "Self-healing monitoring system that watches infrastructure signals, detects anomalies, scores severity, and triggers remediation workflows.",
+      stack: ["Python", "Flask", "Prometheus", "Isolation Forest", "Process metrics"],
+      link: "#"
+    },
+    {
+      name: "RAG Knowledge Base",
+      type: "AI backend",
+      status: "case study soon",
+      summary: "FastAPI-based document intelligence backend with PDF upload, chunking, embeddings, ChromaDB retrieval, citations, and conversational memory.",
+      stack: ["FastAPI", "LLMs", "ChromaDB", "Embeddings", "PostgreSQL"],
+      link: "#"
+    },
+    {
+      name: "H.U.M.A.N.E",
+      type: "multimodal AI",
+      status: "public",
+      summary: "Real-time assistant combining speech, image understanding, sentiment analysis, memory, and WebSocket communication.",
+      stack: ["Python", "WebSocket", "Whisper", "BLIP", "RoBERTa"],
+      link: "https://github.com/Indrajeet-Badhel/H.U.M.A.N.E"
+    },
+    {
+      name: "Multi-Agentic Interview Companion",
+      type: "AI agents",
+      status: "public",
+      summary: "Multilingual interview simulator with LLM agents, emotion detection, automated scoring, and PDF report generation.",
+      stack: ["Python", "Flask", "SQLite", "DeepFace", "Ollama"],
+      link: "https://github.com/Indrajeet-Badhel/MULTI_AGENTIC_INTERVIEW_COMPANION"
+    },
+    {
+      name: "SecureScan Upload System",
+      type: "backend security",
+      status: "public",
+      summary: "Secure upload workflow with malware scanning, validation, automated alerts, and modular response logic.",
+      stack: ["ClamAV", "Python", "PHP", "JavaScript", "C"],
+      link: "https://github.com/Indrajeet-Badhel/SecureScan-Upload-System"
+    }
+  ],
+  platforms: [
+    { name: "GitHub", handle: "Indrajeet-Badhel", metric: "170 yearly contributions", href: "https://github.com/Indrajeet-Badhel" },
+    { name: "LeetCode", handle: "add-handle", metric: "DSA practice", href: "https://leetcode.com/" },
+    { name: "Codeforces", handle: "add-handle", metric: "contests soon", href: "https://codeforces.com/" },
+    { name: "CSES", handle: "problem set", metric: "tracking locally", href: "https://cses.fi/problemset/" },
+    { name: "AtCoder", handle: "add-handle", metric: "beginner contests", href: "https://atcoder.jp/" }
+  ],
+  logs: [
+    {
+      title: "Portfolio rebuild",
+      meta: "design log / now",
+      text: "Moving from a resume page to a small personal operating system for projects, vlogs, and competitive programming notes.",
+      href: "#"
+    },
+    {
+      title: "RAG backend notes",
+      meta: "backend / planned",
+      text: "A future writeup for the document pipeline: upload, parse, chunk, embed, retrieve, cite, and answer.",
+      href: "#"
+    },
+    {
+      title: "Competitive programming journal",
+      meta: "cp / planned",
+      text: "A running log for patterns, mistakes, and problems worth revisiting.",
+      href: "#"
+    }
+  ]
+};
