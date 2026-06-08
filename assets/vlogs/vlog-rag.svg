@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#101316"/>
+  <rect x="104" y="92" width="300" height="430" fill="#1d2225" stroke="#33383a"/>
+  <rect x="478" y="92" width="618" height="90" rx="14" fill="#f4f1e8"/>
+  <rect x="478" y="234" width="420" height="70" rx="12" fill="#22282b"/>
+  <rect x="478" y="344" width="520" height="70" rx="12" fill="#22282b"/>
+  <rect x="478" y="454" width="360" height="70" rx="12" fill="#22282b"/>
+  <text x="104" y="612" fill="#f4f1e8" font-family="monospace" font-size="38">RAG backend vlog thumbnail</text>
+</svg>

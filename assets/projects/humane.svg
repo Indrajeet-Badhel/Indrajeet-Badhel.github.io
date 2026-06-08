@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#101316"/>
+  <circle cx="600" cy="330" r="176" fill="#15191c" stroke="#33383a" stroke-width="4"/>
+  <circle cx="600" cy="330" r="104" fill="none" stroke="#e24732" stroke-width="8"/>
+  <path d="M214 220c86 52 114 52 200 0M786 220c86 52 114 52 200 0M214 438c86-52 114-52 200 0M786 438c86-52 114-52 200 0" fill="none" stroke="#83d174" stroke-width="8"/>
+  <rect x="120" y="96" width="260" height="72" fill="#171b1e" stroke="#33383a"/>
+  <rect x="820" y="96" width="260" height="72" fill="#171b1e" stroke="#33383a"/>
+  <rect x="120" y="554" width="260" height="72" fill="#171b1e" stroke="#33383a"/>
+  <rect x="820" y="554" width="260" height="72" fill="#171b1e" stroke="#33383a"/>
+  <text x="86" y="704" fill="#f4f1e8" font-family="monospace" font-size="42">H.U.M.A.N.E</text>
+</svg>

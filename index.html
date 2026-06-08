@@ -3,29 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Indrajeet Badhel | AI Backend, ML Systems, CP</title>
-  <meta name="description" content="Indrajeet Badhel builds AI backend systems, ML tools, security automation, and competitive programming notes.">
-  <meta name="theme-color" content="#0b0d0f">
+  <title>Indrajeet Badhel | AI Backend & ML Systems</title>
+  <meta name="description" content="Indrajeet Badhel builds AI backends, ML systems, secure automation, and competitive programming notes.">
+  <meta name="theme-color" content="#070a12">
   <meta property="og:title" content="Indrajeet Badhel">
   <meta property="og:description" content="AI Backend, ML Systems, Security Automation, Competitive Programming.">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <canvas id="signal-canvas" aria-hidden="true"></canvas>
+  <div class="site-noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
   <div class="page-shell">
     <header class="site-header">
-      <a class="brand-mark" href="#top" aria-label="Indrajeet Badhel home">
-        <span>伊</span>
-        <strong>Indrajeet</strong>
+      <a class="brand" href="#top" aria-label="Indrajeet Badhel home">
+        <span class="brand-seal">伊</span>
+        <span>
+          <strong>Indrajeet Badhel</strong>
+          <small>AI backend / ML systems</small>
+        </span>
       </a>
       <nav aria-label="Primary navigation">
+        <a href="#systems">Systems</a>
         <a href="#projects">Projects</a>
         <a href="#coding">Coding</a>
-        <a href="#log">Log</a>
+        <a href="#articles">Articles</a>
         <a href="#connect">Connect</a>
       </nav>
     </header>
@@ -33,62 +39,117 @@
     <main id="top">
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Pune, India / AI and backend systems</p>
-          <h1>Indrajeet Badhel</h1>
-          <p class="hero-line">I build practical AI backends, retrieval systems, security automation, and keep sharpening through competitive programming.</p>
-          <div class="terminal" aria-label="Current focus terminal">
-            <div class="terminal-bar">
+          <p class="kicker">Pune, India / Building practical intelligence</p>
+          <h1>AI backends that feel engineered, not assembled.</h1>
+          <p class="hero-line">I am Indrajeet Badhel, a Computer Science student focused on FastAPI backends, RAG systems, ML pipelines, security automation, and competitive programming discipline.</p>
+
+          <div class="command-card">
+            <div class="command-top">
               <span></span><span></span><span></span>
-              <code>indrajeet-os</code>
+              <code>indrajeet@lab:~/portfolio</code>
             </div>
-            <p><span>&gt;</span> focus --now <strong>FastAPI, RAG, ML systems, DSA</strong></p>
-            <p><span>&gt;</span> mode --build <strong>small tools that survive real use</strong></p>
+            <p><span>$</span> current_focus --stack <strong>Python FastAPI RAG ML Security DSA</strong></p>
+            <p><span>$</span> build_mode --goal <strong>useful systems, clean APIs, reliable workflows</strong></p>
           </div>
+
           <div class="hero-actions">
-            <a class="button primary" href="#projects">View work</a>
-            <a class="button ghost" href="mailto:indrajeetnareshbadhel@gmail.com">Email me</a>
+            <a class="button primary" href="#projects">Explore Projects</a>
+            <a class="button secondary" href="mailto:indrajeetnareshbadhel@gmail.com">Contact Me</a>
           </div>
         </div>
 
-        <aside class="profile-panel" aria-label="Profile snapshot">
-          <div class="portrait-wrap">
-            <img src="myself.jpg" alt="Portrait of Indrajeet Badhel">
+        <aside class="hero-console" aria-label="Profile console">
+          <div class="profile-orbit">
+            <div class="orbit-ring ring-a"></div>
+            <div class="orbit-ring ring-b"></div>
+            <img src="profile.jpg" alt="Portrait of Indrajeet Badhel">
+            <span class="orbit-node node-a"></span>
+            <span class="orbit-node node-b"></span>
+            <span class="orbit-node node-c"></span>
           </div>
-          <div class="status-grid">
+          <div class="console-grid">
             <div><span>Status</span><strong>Building</strong></div>
-            <div><span>Stack</span><strong>Python / FastAPI</strong></div>
-            <div><span>Track</span><strong>AI backend</strong></div>
+            <div><span>Backend</span><strong>FastAPI</strong></div>
+            <div><span>AI</span><strong>RAG / LLMs</strong></div>
             <div><span>Practice</span><strong>CP + DSA</strong></div>
           </div>
         </aside>
       </section>
 
-      <section class="section compact" aria-labelledby="about-title">
-        <div class="section-kicker">About</div>
-        <div class="split">
-          <h2 id="about-title">Computer science student building toward serious backend and ML work.</h2>
-          <p>I like systems that combine clean APIs, useful intelligence, and enough security thinking to be trusted. My current direction is AI backend engineering, retrieval-augmented generation, monitoring automation, and competitive programming fundamentals.</p>
+      <section class="ticker" aria-label="Technical focus ticker">
+        <div>
+          <span>Python</span><span>FastAPI</span><span>RAG</span><span>ChromaDB</span><span>LLMs</span><span>Docker</span><span>PostgreSQL</span><span>Linux</span><span>ClamAV</span><span>Prometheus</span><span>DSA</span>
         </div>
+      </section>
+
+      <section class="section" id="systems" aria-labelledby="systems-title">
+        <div class="section-head">
+          <p class="kicker">Operating map</p>
+          <h2 id="systems-title">The kind of systems I am learning to build.</h2>
+        </div>
+        <div class="system-grid">
+          <article class="system-card large">
+            <span>01</span>
+            <h3>AI Backend Engineering</h3>
+            <p>APIs that wrap LLM workflows, document intelligence, memory, retrieval, scoring, and automation without becoming messy demos.</p>
+          </article>
+          <article class="system-card">
+            <span>02</span>
+            <h3>ML Systems</h3>
+            <p>Embeddings, anomaly detection, computer vision, and model-powered features connected to real interfaces.</p>
+          </article>
+          <article class="system-card">
+            <span>03</span>
+            <h3>Security Automation</h3>
+            <p>Upload scanning, Linux fundamentals, logs, ClamAV workflows, and monitoring habits from a defender mindset.</p>
+          </article>
+          <article class="system-card">
+            <span>04</span>
+            <h3>Competitive Programming</h3>
+            <p>Daily reps in data structures, algorithms, patterns, and problem solving speed.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about-strip" id="about">
+        <div>
+          <p class="kicker">About</p>
+          <h2>Computer Science student building toward serious backend and ML work.</h2>
+        </div>
+        <p>Passionate about Artificial Intelligence, Machine Learning, backend engineering, and robotics. I like systems that combine clean APIs, useful intelligence, and enough security thinking to be trusted. I am currently pursuing B.Tech in Computer Science with AI/Data Science focus while building projects and strengthening DSA.</p>
       </section>
 
       <section class="section" id="projects" aria-labelledby="projects-title">
-        <div class="section-heading">
+        <div class="section-head row">
           <div>
-            <div class="section-kicker">Selected Work</div>
-            <h2 id="projects-title">Project case files</h2>
+            <p class="kicker">Selected Work</p>
+            <h2 id="projects-title">Projects as system cards.</h2>
           </div>
-          <p>These are intentionally few. As you clean up and deploy more repos, this section can grow without changing the design.</p>
+          <p>Temporary images are placeholders. Replace them later with real homepage screenshots of each deployed project.</p>
         </div>
-        <div class="project-list" id="project-list"></div>
+        <div class="project-grid" id="project-list"></div>
+      </section>
+
+      <section class="section lab-section" aria-labelledby="lab-title">
+        <div class="section-head">
+          <p class="kicker">Lab timeline</p>
+          <h2 id="lab-title">What the work usually looks like.</h2>
+        </div>
+        <div class="lab-rail">
+          <article><span>Research</span><strong>Read docs, papers, failures, and issue threads.</strong></article>
+          <article><span>Prototype</span><strong>Build the smallest backend that proves the workflow.</strong></article>
+          <article><span>Stress</span><strong>Break upload paths, prompts, latency, and edge cases.</strong></article>
+          <article><span>Document</span><strong>Turn the lessons into articles, logs, and cleaner repos.</strong></article>
+        </div>
       </section>
 
       <section class="section" id="coding" aria-labelledby="coding-title">
-        <div class="section-heading">
+        <div class="section-head row">
           <div>
-            <div class="section-kicker">Practice</div>
-            <h2 id="coding-title">Coding presence</h2>
+            <p class="kicker">Practice</p>
+            <h2 id="coding-title">Coding dashboard.</h2>
           </div>
-          <p>A calm dashboard for GitHub, LeetCode, Codeforces, CSES, and AtCoder. The numbers are editable in one file until you want API integrations.</p>
+          <p>GitHub, LeetCode, Codeforces, CSES, and AtCoder links stay editable in one place.</p>
         </div>
         <div class="coding-layout">
           <div class="heatmap-card">
@@ -110,34 +171,100 @@
         </div>
       </section>
 
-      <section class="section" id="log" aria-labelledby="log-title">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">Field Notes</div>
-            <h2 id="log-title">Build log and vlogs</h2>
+      <section class="section resume-grid">
+        <article class="resume-card">
+          <p class="kicker">Experience</p>
+          <div class="timeline">
+            <div><span>Feb 2025 - Present</span><h3>ROS Coordinator - Team Quark, VIT Pune</h3><p>Robotics workshops, ROS implementations, and peer mentoring around intelligent automation.</p></div>
+            <div><span>Dec 2024 - Present</span><h3>Volunteer - Microsoft Learn Student Club</h3><p>Events focused on cloud, AI, and coding. Assisted hands-on sessions for beginner AI learners.</p></div>
+            <div><span>Dec 2024 - Feb 2025</span><h3>App Dev Volunteer - GedIT Coding Club</h3><p>Android work with Java, coding competitions, and mentoring sessions.</p></div>
           </div>
-          <p>Use this for project updates, video links, CP notes, and paper notes. No database needed yet.</p>
-        </div>
-        <div class="log-list" id="log-list"></div>
+        </article>
+        <article class="resume-card">
+          <p class="kicker">Education</p>
+          <div class="timeline">
+            <div><span>2024 - 2028</span><h3>B.Tech - Computer Science (AI & Data Science)</h3><p>Pune Institute of Computer Technology. Coursework: DSA, ML, Deep Learning, Databases, Cloud Computing.</p></div>
+            <div><span>2022 - 2024</span><h3>Delhi Public School</h3><p>STEM background, programming exposure, debate competition winner, and technical curiosity.</p></div>
+          </div>
+        </article>
       </section>
 
-      <section class="section connect" id="connect" aria-labelledby="connect-title">
+      <section class="section skill-section" aria-labelledby="skills-title">
         <div>
-          <div class="section-kicker">Connect</div>
-          <h2 id="connect-title">Send a signal.</h2>
-          <p>Open to backend, ML, security automation, and student builder conversations.</p>
+          <p class="kicker">Stack</p>
+          <h2 id="skills-title">Tools I keep close.</h2>
+        </div>
+        <div class="skill-map">
+          <span>Python</span><span>FastAPI</span><span>Machine Learning</span><span>RAG</span><span>LLMs</span><span>ChromaDB</span><span>Docker</span><span>AWS EC2</span><span>AWS S3</span><span>PostgreSQL</span><span>C++</span><span>Java</span><span>TensorFlow</span><span>Computer Vision</span><span>ROS</span><span>Linux</span><span>Nmap</span><span>Wireshark</span><span>ClamAV</span><span>GitHub</span><span>JavaScript</span><span>DSA</span>
+        </div>
+      </section>
+
+      <section class="section" id="articles" aria-labelledby="articles-title">
+        <div class="section-head row">
+          <div>
+            <p class="kicker">Writing</p>
+            <h2 id="articles-title">Articles, vlogs, and build notes.</h2>
+          </div>
+          <p>Hardcode these cards whenever you publish a new post or video.</p>
+        </div>
+        <div class="article-grid">
+          <a class="article-card featured" href="#">
+            <img src="assets/articles/social-ai.svg" alt="AI and social media article thumbnail">
+            <div><span>AI / 7 min read</span><h3>How My Social Media Knows What I Was Thinking</h3><p>Signals, recommendation systems, and the strange feeling that apps read your mind.</p></div>
+          </a>
+          <a class="article-card" href="#">
+            <img src="assets/articles/failure.svg" alt="Failure and recovery article thumbnail">
+            <div><span>Life / 3 min read</span><h3>How to Bounce Back From Failure</h3><p>Notes on discipline when motivation becomes unreliable.</p></div>
+          </a>
+          <a class="article-card" href="#">
+            <img src="assets/articles/humane-article.svg" alt="HUMANE article thumbnail">
+            <div><span>Project / 2 min read</span><h3>H.U.M.A.N.E - Modular AI Interaction</h3><p>A build note about making human-AI interaction feel more natural.</p></div>
+          </a>
+          <a class="article-card" href="#">
+            <img src="assets/articles/web3.svg" alt="Web3 identity article thumbnail">
+            <div><span>Web3 / 3 min read</span><h3>Decentralized Identity and Web3</h3><p>Why identity changes when platforms stop being the only center.</p></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="section achievements">
+        <article>
+          <p class="kicker">Achievements</p>
+          <ul>
+            <li>Winner - Room Rush Coding Competition (ACM VIT 2024)</li>
+            <li>Hack The Box Academy - Linux Fundamentals</li>
+            <li>Academic excellence with strong performance</li>
+            <li>Leadership and volunteering in tech communities</li>
+          </ul>
+        </article>
+        <article>
+          <p class="kicker">Interests</p>
+          <ul>
+            <li>Chess, fitness, and reading AI/ML papers</li>
+            <li>Music and guitar for pattern recognition</li>
+            <li>Cooking as patience, precision, experimentation</li>
+            <li>Building side projects and documenting lessons</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section connect" id="connect">
+        <div>
+          <p class="kicker">Connect</p>
+          <h2>Have an idea, project, or internship lead?</h2>
+          <p>I am open to AI backend, ML systems, security automation, and student builder conversations.</p>
         </div>
         <div class="connect-actions">
-          <a class="button primary" href="mailto:indrajeetnareshbadhel@gmail.com">indrajeetnareshbadhel@gmail.com</a>
-          <a class="button ghost" href="https://linkedin.com/in/indrajeetbadhel" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a class="button ghost" href="https://github.com/Indrajeet-Badhel" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="button primary" href="mailto:indrajeetnareshbadhel@gmail.com">Email</a>
+          <a class="button secondary" href="https://linkedin.com/in/indrajeetbadhel" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="button secondary" href="https://github.com/Indrajeet-Badhel" target="_blank" rel="noreferrer">GitHub</a>
         </div>
       </section>
     </main>
 
     <footer>
       <span>Indrajeet Badhel</span>
-      <span>AI backend / ML systems / competitive programming</span>
+      <span>AI Backend / ML Systems / CP</span>
     </footer>
   </div>
 

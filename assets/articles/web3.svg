@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#100d21"/>
+  <rect x="142" y="150" width="290" height="280" rx="18" fill="#181331" stroke="#6d5dfc"/>
+  <rect x="768" y="150" width="290" height="280" rx="18" fill="#181331" stroke="#6d5dfc"/>
+  <path d="M452 290h288" stroke="#edf2f7" stroke-width="10"/>
+  <path d="M708 258l38 32-38 32" fill="none" stroke="#edf2f7" stroke-width="10"/>
+  <text x="208" y="112" fill="#edf2f7" font-family="monospace" font-size="38">Web 2</text>
+  <text x="836" y="112" fill="#edf2f7" font-family="monospace" font-size="38">Web 3</text>
+  <text x="70" y="604" fill="#edf2f7" font-family="monospace" font-size="42">decentralized identity</text>
+</svg>

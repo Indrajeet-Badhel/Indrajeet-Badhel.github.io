@@ -7,6 +7,7 @@ window.siteData = {
       status: "private cleanup",
       summary: "Self-healing monitoring system that watches infrastructure signals, detects anomalies, scores severity, and triggers remediation workflows.",
       stack: ["Python", "Flask", "Prometheus", "Isolation Forest", "Process metrics"],
+      image: "assets/projects/sentinelai.svg",
       link: "#"
     },
     {
@@ -15,6 +16,7 @@ window.siteData = {
       status: "case study soon",
       summary: "FastAPI-based document intelligence backend with PDF upload, chunking, embeddings, ChromaDB retrieval, citations, and conversational memory.",
       stack: ["FastAPI", "LLMs", "ChromaDB", "Embeddings", "PostgreSQL"],
+      image: "assets/projects/rag.svg",
       link: "#"
     },
     {
@@ -23,6 +25,7 @@ window.siteData = {
       status: "public",
       summary: "Real-time assistant combining speech, image understanding, sentiment analysis, memory, and WebSocket communication.",
       stack: ["Python", "WebSocket", "Whisper", "BLIP", "RoBERTa"],
+      image: "assets/projects/humane.svg",
       link: "https://github.com/Indrajeet-Badhel/H.U.M.A.N.E"
     },
     {
@@ -31,6 +34,7 @@ window.siteData = {
       status: "public",
       summary: "Multilingual interview simulator with LLM agents, emotion detection, automated scoring, and PDF report generation.",
       stack: ["Python", "Flask", "SQLite", "DeepFace", "Ollama"],
+      image: "assets/projects/interview.svg",
       link: "https://github.com/Indrajeet-Badhel/MULTI_AGENTIC_INTERVIEW_COMPANION"
     },
     {
@@ -39,6 +43,7 @@ window.siteData = {
       status: "public",
       summary: "Secure upload workflow with malware scanning, validation, automated alerts, and modular response logic.",
       stack: ["ClamAV", "Python", "PHP", "JavaScript", "C"],
+      image: "assets/projects/securescan.svg",
       link: "https://github.com/Indrajeet-Badhel/SecureScan-Upload-System"
     }
   ],
@@ -48,25 +53,5 @@ window.siteData = {
     { name: "Codeforces", handle: "add-handle", metric: "contests soon", href: "https://codeforces.com/" },
     { name: "CSES", handle: "problem set", metric: "tracking locally", href: "https://cses.fi/problemset/" },
     { name: "AtCoder", handle: "add-handle", metric: "beginner contests", href: "https://atcoder.jp/" }
-  ],
-  logs: [
-    {
-      title: "Portfolio rebuild",
-      meta: "design log / now",
-      text: "Moving from a resume page to a small personal operating system for projects, vlogs, and competitive programming notes.",
-      href: "#"
-    },
-    {
-      title: "RAG backend notes",
-      meta: "backend / planned",
-      text: "A future writeup for the document pipeline: upload, parse, chunk, embed, retrieve, cite, and answer.",
-      href: "#"
-    },
-    {
-      title: "Competitive programming journal",
-      meta: "cp / planned",
-      text: "A running log for patterns, mistakes, and problems worth revisiting.",
-      href: "#"
-    }
   ]
 };

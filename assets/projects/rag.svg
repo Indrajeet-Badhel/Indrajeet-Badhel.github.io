@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#101316"/>
+  <rect x="86" y="76" width="1028" height="598" fill="#15191c" stroke="#33383a"/>
+  <rect x="126" y="126" width="310" height="498" fill="#1d2225" stroke="#363d40"/>
+  <rect x="482" y="126" width="592" height="92" rx="12" fill="#f4f1e8"/>
+  <rect x="482" y="260" width="420" height="70" rx="10" fill="#22282b"/>
+  <rect x="482" y="360" width="528" height="70" rx="10" fill="#22282b"/>
+  <rect x="482" y="460" width="478" height="70" rx="10" fill="#22282b"/>
+  <circle cx="282" cy="248" r="72" fill="#e24732"/>
+  <path d="M210 388h144M210 430h174M210 472h110" stroke="#aba79d" stroke-width="18"/>
+  <text x="86" y="718" fill="#f4f1e8" font-family="monospace" font-size="42">RAG Knowledge Base</text>
+</svg>
