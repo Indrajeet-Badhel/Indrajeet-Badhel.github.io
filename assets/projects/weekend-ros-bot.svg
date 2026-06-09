@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Weekend ROS and Arduino bot preview</title>
+  <desc id="desc">A minimal hardware workbench illustration for a weekend robotics prototype.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbf7ed"/>
+      <stop offset=".62" stop-color="#e8f0e7"/>
+      <stop offset="1" stop-color="#c7dccd"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="560" fill="url(#bg)"/>
+  <g fill="none" stroke="#6b806f" stroke-opacity=".2" stroke-width="1">
+    <path d="M0 140h960M0 280h960M0 420h960"/>
+    <path d="M160 0v560M320 0v560M480 0v560M640 0v560M800 0v560"/>
+  </g>
+  <rect x="114" y="112" width="720" height="352" rx="30" fill="#fffdf7" stroke="#385444" stroke-opacity=".22"/>
+  <rect x="166" y="156" width="294" height="168" rx="18" fill="#182f27"/>
+  <rect x="190" y="184" width="246" height="20" rx="10" fill="#dfeadd"/>
+  <rect x="190" y="228" width="156" height="14" rx="7" fill="#8ccf91"/>
+  <rect x="190" y="266" width="208" height="14" rx="7" fill="#78977d"/>
+  <rect x="544" y="162" width="170" height="128" rx="22" fill="#dfeadd" stroke="#78977d"/>
+  <circle cx="584" cy="206" r="14" fill="#2f7b5f"/>
+  <circle cx="672" cy="206" r="14" fill="#2f7b5f"/>
+  <path d="M590 258h82" stroke="#193327" stroke-width="12" stroke-linecap="round"/>
+  <path d="M442 340c52-42 103-42 153 0s100 42 150 0" fill="none" stroke="#2f7b5f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M244 360h82m-82 38h148" stroke="#193327" stroke-opacity=".55" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="322" cy="430" r="36" fill="#193327"/>
+  <circle cx="656" cy="430" r="36" fill="#193327"/>
+  <text x="536" y="394" fill="#193327" font-family="monospace" font-size="24" font-weight="700">ROS + Arduino</text>
+</svg>

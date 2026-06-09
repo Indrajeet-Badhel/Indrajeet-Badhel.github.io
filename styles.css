@@ -669,6 +669,30 @@ h3 {
   padding: 22px;
 }
 
+.publication-card {
+  grid-column: 1 / -1;
+}
+
+.publication-card h3 {
+  max-width: 760px;
+}
+
+.publication-card p {
+  color: var(--soft);
+  line-height: 1.7;
+  max-width: 880px;
+}
+
+.publication-card a {
+  color: var(--ink);
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  margin-top: 8px;
+  text-decoration-color: var(--cyan);
+  text-underline-offset: 5px;
+}
+
 .achievements ul {
   color: var(--soft);
   line-height: 1.8;

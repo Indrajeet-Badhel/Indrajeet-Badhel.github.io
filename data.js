@@ -7,7 +7,7 @@ window.siteData = {
       status: "private cleanup",
       summary: "Self-healing monitoring system that watches infrastructure signals, detects anomalies, scores severity, and triggers remediation workflows.",
       stack: ["Python", "Flask", "Prometheus", "Isolation Forest", "Process metrics"],
-      image: "assets/projects/sentinelai.svg",
+      image: "assets/projects/sentinelai.jpg",
       link: "#"
     },
     {
@@ -34,7 +34,7 @@ window.siteData = {
       status: "public",
       summary: "Multilingual interview simulator with LLM agents, emotion detection, automated scoring, and PDF report generation.",
       stack: ["Python", "Flask", "SQLite", "DeepFace", "Ollama"],
-      image: "assets/projects/interview.svg",
+      image: "assets/projects/interview.jpg",
       link: "https://github.com/Indrajeet-Badhel/MULTI_AGENTIC_INTERVIEW_COMPANION"
     },
     {
@@ -52,7 +52,7 @@ window.siteData = {
       status: "private",
       summary: "Expo React Native prototype for plant matching, garden tracking, AR plant previews, and Gemini-powered plant diagnosis with Hugging Face fallback.",
       stack: ["Expo", "React Native", "Gemini", "Hugging Face", "AR"],
-      image: "assets/projects/greenscape-ar.svg",
+      image: "assets/projects/greenscape-ar.png",
       link: "https://github.com/Indrajeet-Badhel/GreenScape-AR"
     },
     {
@@ -63,6 +63,24 @@ window.siteData = {
       stack: ["React", "TypeScript", "Gemini", "Node.js", "PostgreSQL"],
       image: "assets/projects/contact-builder.png",
       link: "https://github.com/Indrajeet-Badhel/Contact-Builder"
+    },
+    {
+      name: "YANTRAA",
+      type: "Robotics / AI hardware",
+      status: "finalist build",
+      summary: "Team-led home automation robot that used COCO-SSD MobileNet for object detection, Flask and Gemini for responses, and Arduino driver programming for real movement.",
+      stack: ["Arduino", "Flask", "Gemini", "COCO-SSD", "JavaScript"],
+      image: "assets/projects/yantraa.svg",
+      link: "https://www.linkedin.com/posts/indrajeetbadhel_vit-robotics-mlscvitpune-activity-7364053107049213952-iavM?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAED2-OkBb_cSTzGcaXdMRjgscZ5SyiOWyVM"
+    },
+    {
+      name: "Weekend ROS + Arduino Bot",
+      type: "Hardware prototype",
+      status: "build note",
+      summary: "Small DIY Arduino UNO and ROS weekend build, designed as a hands-on base for future voice commands, image recognition, and smarter interaction.",
+      stack: ["Arduino UNO", "ROS", "Sensors", "Servo", "Prototyping"],
+      image: "assets/projects/weekend-ros-bot.svg",
+      link: "https://www.linkedin.com/posts/indrajeetbadhel_building-a-small-diy-project-and-brushing-activity-7441458532257996800-x4Xx?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAED2-OkBb_cSTzGcaXdMRjgscZ5SyiOWyVM"
     }
   ],
   platforms: [
