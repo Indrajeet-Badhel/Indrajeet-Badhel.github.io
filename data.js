@@ -25,7 +25,7 @@ window.siteData = {
       status: "public",
       summary: "Real-time assistant combining speech, image understanding, sentiment analysis, memory, and WebSocket communication.",
       stack: ["Python", "WebSocket", "Whisper", "BLIP", "RoBERTa"],
-      image: "assets/projects/humane.svg",
+      image: "assets/projects/humane.png",
       link: "https://github.com/Indrajeet-Badhel/H.U.M.A.N.E"
     },
     {
@@ -43,8 +43,26 @@ window.siteData = {
       status: "public",
       summary: "Secure upload workflow with malware scanning, validation, automated alerts, and modular response logic.",
       stack: ["ClamAV", "Python", "PHP", "JavaScript", "C"],
-      image: "assets/projects/securescan.svg",
+      image: "assets/projects/securescan.png",
       link: "https://github.com/Indrajeet-Badhel/SecureScan-Upload-System"
+    },
+    {
+      name: "GreenScape AR",
+      type: "AI plant recommendation / AR",
+      status: "private",
+      summary: "Expo React Native prototype for plant matching, garden tracking, AR plant previews, and Gemini-powered plant diagnosis with Hugging Face fallback.",
+      stack: ["Expo", "React Native", "Gemini", "Hugging Face", "AR"],
+      image: "assets/projects/greenscape-ar.svg",
+      link: "https://github.com/Indrajeet-Badhel/GreenScape-AR"
+    },
+    {
+      name: "Contact Builder",
+      type: "AI contact intelligence",
+      status: "public",
+      summary: "AI-powered contact intelligence platform that extracts, enriches, deduplicates, and visualizes CRM-ready contact profiles from resumes, cards, and documents.",
+      stack: ["React", "TypeScript", "Gemini", "Node.js", "PostgreSQL"],
+      image: "assets/projects/contact-builder.png",
+      link: "https://github.com/Indrajeet-Badhel/Contact-Builder"
     }
   ],
   platforms: [

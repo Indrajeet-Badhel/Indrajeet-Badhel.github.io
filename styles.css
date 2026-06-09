@@ -460,6 +460,22 @@ h3 {
   transform: translateY(-4px);
 }
 
+.project-card:first-child {
+  grid-column: span 2;
+}
+
+.project-card:first-child .project-image {
+  aspect-ratio: 16 / 8.4;
+}
+
+.project-card:first-child .project-body {
+  padding: 20px;
+}
+
+.project-card:first-child h3 {
+  font-size: clamp(1.5rem, 2.5vw, 2.3rem);
+}
+
 .project-image {
   aspect-ratio: 16 / 10;
   background: var(--panel-2);
@@ -751,6 +767,7 @@ footer {
   .article-grid { grid-template-columns: 1fr; }
   .article-card:first-child { grid-column: span 1; grid-row: span 1; }
   .project-shell { grid-template-columns: 1fr; }
+  .project-card:first-child { grid-column: auto; }
   .connect-actions { justify-content: flex-start; }
 }
 
