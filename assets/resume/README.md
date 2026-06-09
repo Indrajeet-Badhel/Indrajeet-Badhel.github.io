@@ -1,4 +1,4 @@
-Put your latest resume PDF in this folder as:
+[text](<d:/resumes/Indrajeet Badhel AI Backend resume.pdf>)Put your latest resume PDF in this folder as:
 
 Indrajeet-Badhel-Resume.pdf
 
